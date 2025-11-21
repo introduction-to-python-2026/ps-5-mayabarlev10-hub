@@ -1,11 +1,9 @@
 
-
-
 def split_before_uppercases(formula):
     word = ""
     new_formula = []
     if not formula:
-        return []
+      return []
     word = formula [0]
     index = 1
     while index < len(formula):
@@ -28,7 +26,7 @@ def split_at_digit(formula):
         else:
             word+=split
     if num == "":
-        num = "1"
+    num = "1"
     num_int = int(num)
     return word , num_int
 
