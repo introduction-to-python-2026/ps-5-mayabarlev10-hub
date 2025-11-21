@@ -26,8 +26,8 @@ def split_at_digit(formula):
         else:
             word+=split
     if num == "":
-    num = "1"
-    num_int = int(num)
+     num = "1"
+     num_int = int(num)
     return word , num_int
 
 def count_atoms_in_molecule(molecular_formula):
